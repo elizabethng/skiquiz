@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+
+<!-- put the splash page navigation boxes side by side-->
+<style>
+    .index {
+        width: 408px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+    }
+</style>
+
+<!-- make the splash page navigation buttons large and blue with hover behavior-->
+<style>
+    .indexLink:link, .indexLink:visited {
+      background-color: #062B58;
+      color: white;
+      padding: 30px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .indexLink:hover, .indexLink:active {
+      background-color: #0A4C9C;
+    }
+</style>
+
+<div class="index" style="background-color:#062B58;">
+    <p></p>
+    <p></p>
+    <h2><a class="indexLink" href="{{ url_for('explore') }}">Explore</a></h2>
+    <p></p>
+    <p></p>
+</div>
+
+<div class="index" style="background-color:#062B58;">
+    <p></p>
+    <p></p>
+    <h2><a class="indexLink" href="{{ url_for('nameQuiz') }}">Run Names</a></h2>
+    <p></p>
+    <p></p>
+</div>
+
+<div class="index" style="background-color:#062B58;">
+    <p></p>
+    <p></p>
+    <h2><a class="indexLink" href="{{ url_for('locationQuiz') }}">Run Locations</a></h2>
+    <p></p>
+    <p></p>
+</div>
+
+<!-- Image below of annotated map -->
+<img
+    src="{{ url_for('static', filename='images/MR-trail-map.png') }}"
+    alt="Annotate map of Mission Ridge Ski area"
+    width="1228.8" height="744.0"
+>
+
+{% endblock %}

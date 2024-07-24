@@ -1,0 +1,32 @@
+/* put the splash page navigation boxes side by side */
+.index {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* make the splash page navigation buttons large and blue with hover behavior */
+.indexLink:link, .indexLink:visited {
+    background-color: #062B58;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.indexLink:hover, .indexLink:active {
+    background-color: #0A4C9C;
+}
+
+
+/* make submit button on same line as text entry */
+.submitRunName {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px 30px;
+    vertical-align: middle;
+}
