@@ -1,6 +1,5 @@
 # Mission Ridge Interactive Ski Map & Quiz
 #### Video Demo:  [URL](https://youtu.be/d3yJ8I3gk3k)
-#### Description:
 
 
 ## Overview
@@ -45,6 +44,7 @@ There are a number of ways that I would like to continue development of the app.
 - Provide more information about incorrect guesses. To facilitate learning, it would be beneficial to provide the location or name of the incorrect guess, so users get more opportunities to link run names and locations.
 - Implement scorekeeping. Either by using session cookies or developing a login framework (and corresponding database), users could track their success rate in both quizzes.
 - Implement adaptive quizzing. Once user data is being stored, an adaptive quiz can be developed to help users focus on learning runs they tend to get wrong. Instead of using simple random sampling to suggest quiz questions (currently implemented), the app could weight the sampling by the inverse of the accuracy rate. This would allow users to see more of the runs they get wrong.
+- Implement a run search feature of Explore. Allow users to select a run name from the autocomplete drop down and have it highlight on the map.
 
 ### Code and App Structure Updates
 
