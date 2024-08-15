@@ -3,9 +3,9 @@
 
 
 ## Overview
-[Mission Ridge](https://www.missionridge.com/) is an alpine ski area located in Wenatchee, Washington. Downhill ski areas typically name their runs to help mountain visitors understand and navigate the terrain. One group of users for whom this is particularly important are ski patrol member. Ski patrol members must know the run names and locations and be able to recall these quickly in case of emergencies and for day-to-day communication.
+[Mission Ridge](https://www.missionridge.com/) is an alpine ski area located in Wenatchee, Washington. Downhill ski areas typically name their runs to help mountain visitors understand and navigate the terrain. One group of users for whom this is particularly important is ski patrol. Ski patrolers must know the run names and locations and be able to recall these quickly in case of emergencies and for day-to-day communication.
 
-The Mission Ridge Interactive Ski Map & Quiz is an interactive web application that allows users to test their knowledge and learn about the ski runs at Mission Ridge. This training tool was designed for candidate ski patrollers to help them learn the run names and locations during training.
+The Mission Ridge Interactive Ski Map & Quiz is an interactive web application that allows users to test their knowledge and learn the ski runs at Mission Ridge. This training tool was designed for candidate ski patrollers to help them learn the run names and locations during training.
 
 ## Running the App
 The app uses the Python framework Flask, Bootstrap, and JavaScript. To run the app locally, the app needs to be downloaded. The user can then navigate to the project root directory and run `flask run` to launch the app.
